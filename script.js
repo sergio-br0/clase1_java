@@ -82,7 +82,12 @@ let persona = {
   console.log(persona['correo']);
 
 //Desestructuracion de objetos
-  const{apellido} = persona;
+//Mostrar solo el nombre de la persona
+  const nombrePersona = persona.nombre;
+  console.log(nombrePersona);
+  //Mostrar solo el numero de telefono de la persona.
+  const telefonoPersona = persona.telefono;
+  console.log(telefonoPersona);
 
 //Metodos para objetos
 //Freeze: congela el objeto para no modificar nada
