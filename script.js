@@ -46,7 +46,20 @@ let numero = null;
 console.log(numero);
 
 //Concatenacion
-let nombre1 ='Sergio';
-let nombre2 ='Danilo';
-let apellido1 ='Bolvito'
-let apellido2 = 'Rodriguez'
+let nombre1 ='Sergio ';
+let nombre2 ='Danilo ';
+let apellido1 ='Bolvito '
+let apellido2 = 'Rodriguez '
+let edad = 24;
+
+console.log(nombre1 + nombre2 + apellido1 + apellido2);
+
+
+//utilizamos backticks () para crear un template string.
+//podemos incluir variables o expresiones utilizando la sintaxis ${}.
+//En este caso, ${nombre}se sustituirá por el valor de la variable nombre,
+//y ${edad}se sustituirá por el valor de la variable edad. El resultado final se
+//almacena en la variable mensaje` y se muestra en la consola.
+let mensaje = `Hola, mi nombre es ${nombre1 + apellido1} y tengo ${edad} años.`;
+console.log(mensaje);
+
