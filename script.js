@@ -74,9 +74,11 @@ let persona = {
     edad: 24,
     sexo: "masculino"
   };
-
+//muestra el objeto completo.
   console.log(persona);
+  //sintaxis de punto
   console.log(persona.nombre);
+  //sintaxis de corchetes
   console.log(persona['correo']);
 
 //Desestructuracion de objetos
@@ -109,7 +111,6 @@ console.log(array1);
 array1.shift(array1);
 console.log(array1);
 
-//
 
 
 
