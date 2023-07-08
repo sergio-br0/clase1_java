@@ -100,6 +100,15 @@ console.log(array1);
 //Unshift: agrega un elemento al principio del array
 array1.unshift("uva");
 console.log(array1);
+
+//Elimina el ultimo elemento del array
+array1.pop(array1);
+console.log(array1);
+
+//Elimina el primer elemento del array
+array1.shift(array1);
+console.log(array1);
+
 //
 
 
