@@ -63,3 +63,53 @@ console.log(nombre1 + nombre2 + apellido1 + apellido2);
 let mensaje = `Hola, mi nombre es ${nombre1 + apellido1} y tengo ${edad} años.`;
 console.log(mensaje);
 
+
+
+//Objetos 
+let persona = {
+    nombre: "Sergio",
+    apellido: "Bolvito",
+    telefono: "12345678",
+    correo: "sergio@example.com",
+    edad: 24,
+    sexo: "masculino"
+  };
+
+  console.log(persona);
+  console.log(persona.nombre);
+  console.log(persona['correo']);
+
+//Desestructuracion de objetos
+  const{apellido} = persona;
+
+//Metodos para objetos
+//Freeze: congela el objeto para no modificar nada
+//Seal: Igual a freeze, pero permite modificar propiedades existentes
+let personaFreeze = Object.freeze(persona);
+personaFreeze.nombre = "Sergio"; 
+console.log(personaFreeze.nombre); 
+
+
+//arrays
+let array1 = ["manzana", "melon", "pera", "piña", "banano", "coco"];
+console.log(array1);
+//Metodos
+//Push: agrega un elemento al final del array
+array1.push('sandia');
+console.log(array1);
+//Unshift: agrega un elemento al principio del array
+array1.unshift("uva");
+console.log(array1);
+//
+
+
+
+
+
+
+
+
+
+
+
+
